@@ -8,7 +8,7 @@
                     <div class="hero-text">
                         <div class="hero-text-tablecell">
                             <p class="subtitle">Barbershop Nur</p>
-                            <h1>Selamat Datang </h1>
+                            <h1>Selamat Datang Di </h1>
                         </div>
                     </div>
                 </div>
