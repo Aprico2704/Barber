@@ -10,7 +10,7 @@
     <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
     @vite(['resources/css/app.css', 'resources/js/app.js'])
-    <title>SI Barbershop</title>
+    <title>Barbershop Nur</title>
 </head>
 
 <body class="h-full">
