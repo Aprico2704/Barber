@@ -57,55 +57,62 @@
     </section>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script>
-        $(document).ready(function() {
-            $('#registerform').on('submit', function(e) {
-                e.preventDefault();
-                Swal.fire({
-                    title: 'Harap Tunggu',
-                    text: 'Sedang memproses registrasi...',
-                    allowOutsideClick: false,
-                    didOpen: () => {
-                        Swal.showLoading();
-                    }
-                });
-                $.ajax({
-                    url: $(this).attr('action'),
-                    method: 'POST',
-                    data: $(this).serialize(),
-                    success: function(response) {
-                        if (response.success) {
-                            Swal.fire({
-                                icon: 'success',
-                                title: 'Registrasi Berhasil',
-                                text: 'Email verifikasi telah dikirim. Silakan cek email Anda.',
-                                timer: 2000,
-                                showConfirmButton: false,
-                            }).then(() => {
-                                window.location.href = response.redirect;
-                            });
-                        } else {
-                            Swal.fire({
-                                icon: 'error',
-                                title: 'Registrasi Gagal',
-                                text: response.message ||
-                                    'Terjadi kesalahan. Silakan coba lagi.',
-                            });
-                        }
-                    },
-                    error: function(xhr) {
-                        let errorMessage = 'Terjadi kesalahan. Silakan coba lagi.';
-                        if (xhr.responseJSON && xhr.responseJSON.message) {
-                            errorMessage = xhr.responseJSON.message;
-                        }
-                        Swal.fire({
-                            icon: 'error',
-                            title: 'Registrasi Gagal',
-                            text: errorMessage,
-                        });
-                    },
-                });
-            });
+       $(document).ready(function() {
+    $('#registerform').on('submit', function(e) {
+        e.preventDefault();
+        
+        // Menampilkan loading Swal saat proses registrasi
+        Swal.fire({
+            title: 'Harap Tunggu',
+            text: 'Sedang memproses registrasi...',
+            allowOutsideClick: false,
+            didOpen: () => {
+                Swal.showLoading();
+            }
         });
+
+        // Melakukan AJAX request ke server
+        $.ajax({
+            url: $(this).attr('action'),
+            method: 'POST',
+            data: $(this).serialize(),
+            success: function(response) {
+                if (response.success) {
+                    // Jika registrasi berhasil
+                    Swal.fire({
+                        icon: 'success',
+                        title: 'Registrasi Berhasil',
+                        text: 'Registrasi berhasil! Anda akan diarahkan ke halaman login.',
+                        timer: 2000,
+                        showConfirmButton: false,
+                    }).then(() => {
+                        // Mengarahkan ke halaman login setelah 2 detik
+                        window.location.href = '/login'; // Sesuaikan dengan route login Anda
+                    });
+                } else {
+                    // Jika ada error pada server
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Registrasi Gagal',
+                        text: response.message || 'Terjadi kesalahan. Silakan coba lagi.',
+                    });
+                }
+            },
+            error: function(xhr) {
+                let errorMessage = 'Terjadi kesalahan. Silakan coba lagi.';
+                if (xhr.responseJSON && xhr.responseJSON.message) {
+                    errorMessage = xhr.responseJSON.message;
+                }
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Registrasi Gagal',
+                    text: errorMessage,
+                });
+            },
+        });
+    });
+});
+
     </script>
 </body>
 

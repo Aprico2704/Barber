@@ -34,9 +34,7 @@
                             <input type="password" id="password" name="password"
                                 class="w-full px-3 py-2 border rounded-md" required>
                         </div>
-                        <div class="flex items-center justify-between">
-                            <a href="#" class="text-sm text-blue-700 hover:text-blue-800">Lupa Password?</a>
-                        </div>
+                       
                         <button type="submit" class="w-full py-2 px-4 bg-blue-700 text-white rounded-md">Masuk</button>
                     </form>
                     <p class="text-center mt-4">Tidak punya akun? <a href="{{ route('register') }}"
