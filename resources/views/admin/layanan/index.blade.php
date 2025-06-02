@@ -142,7 +142,7 @@
                         <td>Rp. {{ number_format($item->harga, 0, ',', '.') }}</td>
                         <td>{{ $item->detail }}</td>
                         <td>
-                            <img src="{{ asset('storage/' . $item->gambar) }}" alt="{{ $item->nama }}"
+                            <img src="{{ asset('public/storage/' . $item->gambar) }}" alt="{{ $item->nama }}"
                             class="w-16 h-16 rounded-full shadow-md border border-gray-300 object-cover">
                         </td>
 
