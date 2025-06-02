@@ -72,7 +72,7 @@
                 <div class="mb-3">
                     <label for="foto" class="form-label">Foto</label>
                     <input type="file" class="form-input" id="foto" name="foto" onchange="previewImage(event)">
-                    <img id="imagePreview" src="{{ Auth::user()->foto ? asset('storage/' . Auth::user()->foto) : '#' }}" alt="Image Preview" class="mt-3" style="display: {{ Auth::user()->foto ? 'block' : 'none' }}; max-width: 200px; height: auto;">
+                    <img id="imagePreview" src="{{ Auth::user()->foto ? asset('public/storage/' . Auth::user()->foto) : '#' }}" alt="Image Preview" class="mt-3" style="display: {{ Auth::user()->foto ? 'block' : 'none' }}; max-width: 200px; height: auto;">
                 </div>
                 <div class="flex justify-end mt-6">
                     <button type="submit"
