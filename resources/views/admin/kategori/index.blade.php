@@ -120,7 +120,7 @@
                         <td>{{ $item->deskripsi }}</td>
                         <td>
                             <div class="flex items-center">
-                                <img src="{{ asset('storage/' . $item->gambar) }}" alt="{{ $item->nama }}"
+                                <img src="{{ asset('public/storage/' . $item->gambar) }}" alt="{{ $item->nama }}"
                                     class="w-16 h-16 rounded-full shadow-md border border-gray-300 object-cover">
                             </div>
                         </td>
