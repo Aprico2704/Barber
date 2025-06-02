@@ -58,7 +58,7 @@
                     <div class="col-lg-4 col-md-6 text-center">
                         <div class="single-product-item" style="height: 100%;">
                             <div class="product-image" style="height: 400px; overflow: hidden;">
-                                <a href="#"><img src="{{ asset('storage/' . $item->gambar) }}"
+                                <a href="#"><img src="{{ asset('public/storage/' . $item->gambar) }}"
                                         alt="{{ $item->nama }}"
                                         style="width: 100%; height: 100%; object-fit: cover;"></a>
                             </div>
