@@ -52,7 +52,7 @@
                         <div class="single-latest-news">
                             <a href="#">
                                 <div class="latest-news-bg"
-                                    style="background-image: url({{ asset('storage/' . $item->gambar) }});"></div>
+                                    style="background-image: url({{ asset('public/storage/' . $item->gambar) }});"></div>
                             </a>
                             <div class="news-text-box">
                                 <h3><a href="#">{{ $item->nama }}</a></h3>
