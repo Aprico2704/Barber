@@ -423,7 +423,7 @@
                             onSuccess: function(result) {
                                 Swal.fire({
                                     title: 'Pembayaran Berhasil!',
-                                    text: 'Reservasi Anda telah dikonfirmasi. Silakan cek email Anda untuk invoice.',
+                                    text: 'Reservasi Anda telah dikonfirmasi.',
                                     icon: 'success',
                                     showConfirmButton: false,
                                     timer: 2000,
