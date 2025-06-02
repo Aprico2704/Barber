@@ -197,32 +197,26 @@
                         </div>`;
 
                     fetch(`/get-layanan-by-kategori/${kategoriId}`)
-                        .then(response => response.json())
-                        .then(data => {
-                            layananContainer.innerHTML = data.map(layanan => `
-                                <div class="col-md-6 mb-3">
-                                    <div class="service-card p-3 rounded-3 border"
-                                         onclick="selectService(this, ${layanan.id})">
-                                        <div class="d-flex align-items-center gap-3">
-                                            ${layanan.gambar ? `
-                                            <div class="service-image rounded overflow-hidden" 
-                                                 style="width: 80px; height: 80px; margin-right: 10px;">
-                                                <img src="public/storage/${layanan.gambar}" alt="${layanan.nama}" 
-                                                 class="w-100 h-100" style="object-fit: cover;">
-                                                    </div>
-                                                    ` : ''}
-                                            <div class="service-info flex-grow-1">
-                                                <h5 class="mb-1">${layanan.nama}</h5>
-                                                <p class="text-muted mb-2" style="font-size: 1rem;">${layanan.detail}</p>
-                                                <span class="badge bg-primary p-2" style="font-size: 1.1rem;">
-                                                    Rp ${new Intl.NumberFormat('id-ID').format(layanan.harga)}
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
+                    .then(response => response.json())
+                    .then(data => {
+                    layananContainer.innerHTML = data.map(layanan => `
+                    <div class="col-md-6 mb-3">
+                        <div class="service-card p-3 rounded-3 border"
+                             onclick="selectService(this, ${layanan.id})">
+                            <div class="d-flex align-items-center gap-3">
+                                <div class="service-info flex-grow-1">
+                                    <h5 class="mb-1">${layanan.nama}</h5>
+                                    <p class="text-muted mb-2" style="font-size: 1rem;">${layanan.detail}</p>
+                                    <span class="badge bg-primary p-2" style="font-size: 1.1rem;">
+                                        Rp ${new Intl.NumberFormat('id-ID').format(layanan.harga)}
+                                    </span>
                                 </div>
-                            `).join('');
-                        })
+                            </div>
+                        </div>
+                    </div>
+                    `).join('');
+                    })
+
                         .catch(error => {
                             console.error(error);
                             layananContainer.innerHTML = `
