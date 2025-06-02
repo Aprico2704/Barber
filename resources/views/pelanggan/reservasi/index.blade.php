@@ -110,7 +110,7 @@
                                                 @if ($kategori->gambar)
                                                     <div class="category-image rounded-circle overflow-hidden"
                                                         style="width: 60px; height: 60px; margin-right: 10px;">
-                                                        <img src="{{ asset('storage/' . $kategori->gambar) }}"
+                                                        <img src="{{ asset('public/storage/' . $kategori->gambar) }}"
                                                             alt="{{ $kategori->nama }}" class="w-100 h-100"
                                                             style="object-fit: cover;">
                                                     </div>
