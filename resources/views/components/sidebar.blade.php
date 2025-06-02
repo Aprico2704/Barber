@@ -39,7 +39,7 @@
                             aria-expanded="false" data-dropdown-toggle="dropdown-user">
                             <span class="sr-only">Open user menu</span>
                             <img class="w-10 h-10 rounded-full object-cover border-2 border-gray-300 dark:border-gray-600"
-                                src="{{ Auth::user()->foto ? asset('storage/' . Auth::user()->foto) : 'https://flowbite.com/docs/images/people/profile-picture-5.jpg' }}"
+                                src="{{ Auth::user()->foto ? asset('public/storage/' . Auth::user()->foto) : 'https://flowbite.com/docs/images/people/profile-picture-5.jpg' }}"
                                 alt="user photo">
                         </button>
                     </div>
