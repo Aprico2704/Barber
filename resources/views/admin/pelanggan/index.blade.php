@@ -142,7 +142,7 @@
                         <td>{{ $item->no_telepon }}</td>
                         <td>
                             @if ($item->foto)
-                                <img src="{{ asset('storage/' . $item->foto) }}" alt="{{ $item->name }}" class="w-16 h-16 rounded-full object-cover">
+                                <img src="{{ asset('public/storage/' . $item->foto) }}" alt="{{ $item->name }}" class="w-16 h-16 rounded-full object-cover">
                             @endif
                         </td>
                         <td>{{ $item->alamat }}</td>
