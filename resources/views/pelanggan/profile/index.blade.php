@@ -40,7 +40,7 @@
                             </p>
                             <p>
                                 <input type="file" id="foto" name="foto" onchange="previewImage(event)">
-                                <img id="imagePreview" src="{{ Auth::user()->foto ? asset('storage/' . Auth::user()->foto) : '#' }}" alt="Image Preview" class="mt-3 rounded-md shadow-md" style="display: {{ Auth::user()->foto ? 'block' : 'none' }}; max-width: 200px; height: auto;">
+                                <img id="imagePreview" src="{{ Auth::user()->foto ? asset('public/storage/' . Auth::user()->foto) : '#' }}" alt="Image Preview" class="mt-3 rounded-md shadow-md" style="display: {{ Auth::user()->foto ? 'block' : 'none' }}; max-width: 200px; height: auto;">
                             </p>
                             <p><input type="submit" value="Update Profile"></p>
                         </form>
