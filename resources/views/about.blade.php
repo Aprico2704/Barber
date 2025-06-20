@@ -16,7 +16,7 @@
 	<!-- end breadcrumb section -->
 
 	<!-- featured section -->
-	<div class="contact-from-section mt-150 mb-150">
+	<div class="container mt-100 mb-100">
 		<div class="row">
 			<div class="col-lg-12">
 				<div class="featured-text">
