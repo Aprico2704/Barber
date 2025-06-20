@@ -29,9 +29,9 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="abt-text">
                         <h2>Barbershop Nur</h2>
-                        <p>Barbershop ini telah berdiri sejak tahun xxxx, yang dikelola oleh bapak nur xxx sendiri
-                            memberikan pelayanan terbaik dalam perawatan rambut dan penampilan. Kami selalu berkomitmen untuk memberikan pengalaman yang
-                            memuaskan bagi setiap pelanggan.</p>
+                        <p>Barbershop Nur adalah sebuah usaha jasa potong rambut yang didirikan sejak tahun 2003 oleh Pak Nur.
+                            Berlokasi di daerah Babelan, Bekasi Utara, barbershop ini telah menjadi salah satu pilihan utama masyarakat 
+                            sekitar dalam memenuhi kebutuhan perawatan rambut, baik bagi pria maupun wanita..</p>
                         <a href="{{ url('/about') }}" class="boxed-btn mt-4">Selengkapnya</a>
                     </div>
                 </div>
