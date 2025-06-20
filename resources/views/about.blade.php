@@ -17,54 +17,24 @@
 
 	<!-- featured section -->
 	<div class="feature-bg">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-7">
-					<div class="featured-text">
-						<h2 class="pb-3">Mengapa <span class="orange-text">Barbershop Nur</span></h2>
-						<div class="row">
-							<div class="col-lg-6 col-md-6 mb-5 mb-md-5">
-								<div class="list-box d-flex">
-									<div class="list-icon">
-										<i class="fas fa-money-bill-alt"></i>
-									</div>
-									<div class="content">
-										<h3>Harga Terbaik</h3>
-										<p>Kami menawarkan harga yang kompetitif untuk semua layanan kami tanpa mengorbankan kualitas.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-6 col-md-6 mb-5 mb-md-5">
-								<div class="list-box d-flex">
-									<div class="list-icon">
-										<i class="fas fa-briefcase"></i>
-									</div>
-									<div class="content">
-										<h3>Gaya Kustom</h3>
-										<p>Barber kami terampil dalam menciptakan gaya kustom yang disesuaikan dengan preferensi Anda.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-6 col-md-6">
-								<div class="list-box d-flex">
-									<div class="list-icon">
-										<i class="fas fa-sync-alt"></i>
-									</div>
-									<div class="content">
-										<h3>Janji Temu Cepat</h3>
-										<p>Pesan janji temu Anda dengan cepat dan mudah melalui sistem online kami.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="featured-text">
+					<h2 class="pb-3">Apa itu <span class="orange-text">Barbershop Nur?</span></h2>
+					<p>
+						Barbershop Nur adalah sebuah usaha jasa potong rambut yang didirikan sejak tahun 2003 oleh Pak Nur. Berlokasi di daerah Babelan, Bekasi Utara, barbershop ini telah menjadi salah satu pilihan utama masyarakat sekitar dalam memenuhi kebutuhan perawatan rambut, baik bagi pria maupun wanita. Sejak awal berdirinya, Barbershop Nur dikenal dengan pelayanan yang ramah, cepat, dan hasil potongan yang rapi serta memuaskan.
+					</p>
+					<p>
+						Barbershop Nur tidak hanya mempertahankan nilai-nilai tradisional dalam pelayanan, tetapi juga mulai mengadopsi pendekatan modern, seperti pemanfaatan sistem pemesanan online, media sosial, serta peningkatan kualitas layanan secara digital. Transformasi ini dilakukan untuk tetap kompetitif di tengah meningkatnya jumlah barbershop modern yang mengedepankan kenyamanan, gaya, dan teknologi.
+					</p>
+					<p>
+						Dengan pengalaman lebih dari dua dekade, Barbershop Nur telah membangun kepercayaan masyarakat melalui kualitas layanan dan konsistensi. Hal ini menjadikan Barbershop Nur tidak sekadar tempat potong rambut, tetapi juga sebagai bagian dari gaya hidup masyarakat lokal yang mengutamakan penampilan dan kepuasan pelayanan.
+					</p>
 				</div>
 			</div>
 		</div>
+	</div>
 	</div>
 	<!-- end featured section -->
 
