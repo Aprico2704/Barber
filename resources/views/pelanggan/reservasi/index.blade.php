@@ -107,14 +107,14 @@
                                     <label class="w-100" for="kategori{{ $kategori->id }}">
                                         <div class="category-card p-3 rounded-3 border shadow-sm mb-3">
                                             <div class="d-flex align-items-center gap-3">
-                                                @if ($kategori->gambar)
+                                                <!-- @if ($kategori->gambar)
                                                     <div class="category-image rounded-circle overflow-hidden"
                                                         style="width: 60px; height: 60px; margin-right: 10px;">
                                                         <img src="{{ asset('public/storage/' . $kategori->gambar) }}"
                                                             alt="{{ $kategori->nama }}" class="w-100 h-100"
                                                             style="object-fit: cover;">
                                                     </div>
-                                                @endif
+                                                @endif -->
                                                 <div class="category-info flex-grow-1">
                                                     <h5 class="mb-1 fw-bold">{{ $kategori->nama }}</h5>
                                                     <p class="text-muted mb-0 small">{{ $kategori->deskripsi }}</p>
