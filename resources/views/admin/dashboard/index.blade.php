@@ -5,7 +5,6 @@
             <div class="bg-white shadow rounded-lg p-6 transform transition duration-500 hover:scale-105">
                 <div class="flex items-center">
                     <div class="flex-shrink-0">
-                        
                     </div>
                     <div class="ml-4">
                         <h3 class="text-lg leading-6 font-medium text-gray-900">Total Reservasi</h3>
@@ -16,12 +15,6 @@
             <div class="bg-white shadow rounded-lg p-6 transform transition duration-500 hover:scale-105">
                 <div class="flex items-center">
                     <div class="flex-shrink-0">
-                        <svg class="h-12 w-12 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M17 20h5v-2a4 4 0 00-3-3.87M9 20H4v-2a4 4 0 013-3.87M12 12a4 4 0 100-8 4 4 0 000 8zm6 8h-1.4a5.97 5.97 0 00-9.2 0H6">
-                            </path>
-                        </svg>
                     </div>
                     <div class="ml-4">
                         <h3 class="text-lg leading-6 font-medium text-gray-900">Total Pelanggan</h3>
@@ -32,11 +25,6 @@
             <div class="bg-white shadow rounded-lg p-6 transform transition duration-500 hover:scale-105">
                 <div class="flex items-center">
                     <div class="flex-shrink-0">
-                        <svg class="h-12 w-12 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M12 14l9-5-9-5-9 5 9 5zm0 7v-6m0 0L3 9m9 5l9-5-9 5z"></path>
-                        </svg>
                     </div>
                     <div class="ml-4">
                         <h3 class="text-lg leading-6 font-medium text-gray-900">Total Barberman</h3>
@@ -47,16 +35,6 @@
             <div class="bg-white shadow rounded-lg p-6 transform transition duration-500 hover:scale-105">
                 <div class="flex items-center">
                     <div class="flex-shrink-0">
-                        <svg class="h-12 w-12 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M12 8c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z">
-                            </path>
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 1v22m-7-7h14">
-                            </path>
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M15 10h-3a2 2 0 00-2 2v0a2 2 0 002 2h2a2 2 0 010 4h-3m0-6V8m0 8v2"></path>
-                        </svg>
                     </div>
                     <div class="ml-4">
                         <h3 class="text-lg leading-6 font-medium text-gray-900">Total Pendapatan</h3>
