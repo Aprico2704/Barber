@@ -6,7 +6,7 @@
                 <div class="col-lg-8 offset-lg-2 text-center">
                     <div class="breadcrumb-text">
                         <h1>Edit Profile</h1>
-                        <p>Edit your profile</p>
+                        <p>Edit profile disini</p>
                     </div>
                 </div>
             </div>
