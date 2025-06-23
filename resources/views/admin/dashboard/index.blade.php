@@ -5,12 +5,7 @@
             <div class="bg-white shadow rounded-lg p-6 transform transition duration-500 hover:scale-105">
                 <div class="flex items-center">
                     <div class="flex-shrink-0">
-                        <svg class="h-12 w-12 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M8 7V3m8 4V3m-9 4h10a2 2 0 012 2v11a2 2 0 01-2 2H7a2 2 0 01-2-2V9a2 2 0 012-2zm3 4h4m-4 4h4">
-                            </path>
-                        </svg>
+                        
                     </div>
                     <div class="ml-4">
                         <h3 class="text-lg leading-6 font-medium text-gray-900">Total Reservasi</h3>
