@@ -153,7 +153,7 @@
                 <p><strong>Jadwal:</strong> ${item.jadwal.tanggal} ${item.jadwal.jam_mulai} - ${item.jadwal.jam_selesai}</p>
                 <p><strong>Pembayaran:</strong> <span class="px-2 py-1 rounded-md text-white ${item.pembayaran.status === 'completed' ? 'bg-green-500' : 'bg-red-500'}">${item.pembayaran.status}</span></p>
                 <p><strong>Harga:</strong> Rp ${new Intl.NumberFormat('id-ID').format(item.layanan.harga)}</p>
-                <p><strong>Tanggal Reservasi:</strong> ${item.tanggal_reservasi}</p>
+                <p><strong>Tanggal Reservasi:</strong> ${new Date(item.tanggal_reservasi).toLocaleDateString('id-ID', { day: '2-digit', month: 'long', year: 'numeric' })}</p>
             `;
             document.getElementById('modalContent').innerHTML = modalContent;
             document.getElementById('detailModal').classList.remove('hidden');
