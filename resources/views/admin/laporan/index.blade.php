@@ -112,7 +112,7 @@
                                 {{ $item->jadwal->jam_selesai }}</td>
                             <td>{{ $item->pembayaran->status }}</td> --}}
                             <td>Rp {{ number_format($item->layanan->harga, 0, ',', '.') }}</td>
-                            <td>{{ $item->tanggal_reservasi }}</td>
+                            <td>{{ \Carbon\Carbon::parse($item->tanggal_reservasi)->format('Y-m-d') }}</td>
                             <td>
                                 <button onclick="openModal({{ $item->id }})"
                                     class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">Detail</button>
