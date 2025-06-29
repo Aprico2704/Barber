@@ -51,7 +51,7 @@
             </form>
             <p class="text-center mt-4">Sudah punya akun? <a href="{{ route('login') }}" class="text-blue-700">Masuk</a>
             </p>
-            <p class="text-center mt-4"><a href="{{ url('/') }}" class="text-blue-700">Kembali ke halaman
+            <p class="text-center mt-4"><a href="{{ url('/login') }}" class="text-blue-700">Kembali ke halaman
                     sebelumnya</a></p>
         </div>
     </section>
